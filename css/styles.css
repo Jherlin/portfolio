@@ -196,4 +196,14 @@ header a:hover {
         margin-right: 22%;
         font-weight: bolder;
     }
+
+    .skill-row {
+        width: 70%;
+        margin: 80px auto 80px auto;
+        text-align: left;
+    }
+
+    h1 {
+        font-size: 3.8rem;
+    }
   }
