@@ -1,0 +1,185 @@
+/*
+============================================================================
+                            BODY/CONTAINER STYLING                          
+============================================================================
+*/
+
+header {
+    background-color: #CFF5E7;
+    color: #0D4C92;
+    font-size: 1.4rem;
+    padding-top: 65px;
+    padding-bottom: 50px;
+}
+
+.header-options {
+    float: right;
+    margin-right: 150px;
+    font-weight: bolder;
+}
+
+body {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #6b819b;
+    margin: 0;
+}
+
+.top-container {
+    padding: 50px 0px 0px;
+    background-color: #CFF5E7;
+    color: #0D4C92;
+}
+
+.contact-me {
+    margin: 60px auto;
+}
+
+.bottom-container {
+    background-color: #CFF5E7;
+    padding-top: 35px;
+    padding-bottom: 30px;
+}
+
+.profile {
+    margin: 60px auto;
+}
+
+.skills {
+    margin: 60px auto;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 80px auto 80px auto;
+    text-align: left;
+}
+
+.skill-row  p {
+    text-align: left;
+    line-height: 1.7;
+    margin-top: -10px;
+}
+
+.skill-row-2 {
+    margin-top: 200px;
+}
+
+hr {
+    border: dotted 6px;
+    border-bottom: none;
+    width: 3%;
+}
+
+/*
+============================================================================
+                            TEXT STYLING
+============================================================================
+*/
+
+.top-container p {
+    font-size: 1.7rem;
+    margin-top: -30px;
+    margin-bottom: -20px;
+}
+
+h1 {
+    font-size: 4.5rem;
+}
+
+h2 {
+    font-size: 2.3rem;
+    color: #59C1BD;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: #59C1BD;
+    font-weight: bolder;
+}
+
+p {
+    font-size: 1.25rem;
+}
+
+.bottom-container p {
+    font-size: 1rem;
+}
+
+/*
+============================================================================
+                            IMAGE STYLING
+============================================================================
+*/
+
+.mountain {
+    width: 30%;
+    margin-bottom: -4px;
+    padding-top: 80px;
+}
+.img-1 {
+    width: 250px;
+    margin-top: 40px;
+    border-radius: 50%;
+}
+
+.web-dev {
+    width: 250px;
+    float: left;
+    margin-right: 30px;
+}
+
+.backend {
+    width: 250px;
+    float: right;
+    margin-left: 30px;  
+}
+
+/*
+============================================================================
+                            BUTTON STYLING
+============================================================================
+*/
+
+.btn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    color: #ffff;
+    font-size: 1.4rem;
+    background: #59C1BD;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    position: relative;
+    top: 10px;
+  }
+
+.btn:hover {
+    background: #A0E4CB;
+    text-decoration: none;
+  }
+
+header a {
+    padding-left: 50px;
+    text-decoration: none;
+    color: inherit;
+}
+
+header a:hover {
+    padding-left: 50px;
+    color: #6992c1;
+}
+
+.bottom-container a {
+    text-decoration: none;
+    color: inherit;
+    padding-left: 3px;
+}
+
+.bottom-container a:hover {
+    text-decoration: none;
+    color: inherit;
+    padding-left: 3px;
+    border-bottom: 2px solid;
+}
