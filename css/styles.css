@@ -8,13 +8,13 @@ header {
     background-color: #CFF5E7;
     color: #0D4C92;
     font-size: 1.4rem;
-    padding-top: 65px;
-    padding-bottom: 50px;
+    padding-top: 25px;
+    padding-bottom: 90px;
 }
 
 .header-options {
     float: right;
-    margin-right: 150px;
+    margin-right: 10%;
     font-weight: bolder;
 }
 
@@ -161,14 +161,15 @@ p {
   }
 
 header a {
-    padding-left: 50px;
     text-decoration: none;
     color: inherit;
 }
 
 header a:hover {
-    padding-left: 50px;
     color: #6992c1;
+}
+.resume {
+    padding-left: 50px;
 }
 
 .bottom-container a {
@@ -190,10 +191,9 @@ header a:hover {
 ============================================================================
 */
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 767px) {
     .header-options {
-        float: right;
-        margin-right: 25%;
+        margin-right: 22%;
         font-weight: bolder;
     }
   }
